@@ -1,0 +1,4 @@
+- Vite is very fast because uses `esbuild` for pre-bundling dependencies during the development. `esbuild` is an extremely fast JavaScript bundler written in the Go language.
+- Vite uses `Rollup` for production build.
+- Vite handles transpilation, not type-checking
+- Vite ships with an integrated development server that’s blazing fast, thanks to its use of native ES modules and pre-bundling with esbuild.

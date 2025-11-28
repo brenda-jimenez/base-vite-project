@@ -6,7 +6,7 @@ describe('Button Component', () => {
   it('renders button', () => {
     render(<Button />);
 
-    const button = screen.getByText('0');
+    const button = screen.getByText('Hello 0');
     expect(button).toBeInTheDocument();
   });
 
@@ -18,7 +18,7 @@ describe('Button Component', () => {
     const button = screen.getByRole('button');
     await user.click(button);
 
-    const counter = screen.getByText('1');
+    const counter = screen.getByText('Hello 1');
     expect(counter).toBeInTheDocument();
   });
 });
